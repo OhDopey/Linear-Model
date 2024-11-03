@@ -61,4 +61,10 @@ Our plots prediction is 0.8155096. According to the prediction the values will b
 basicNN + geom_point() + ggtitle("SIMS~ARM")+ theme(plot.title = element_text(hjust = 0.5, size = 20))+ geom_smooth(method=lm)
 ```
 
+### Model2: SIMS~GRIP
+
+```{r}
+basicNN <- ggplot(data,aes(y=SIMS,x=GRIP))
+```
+
 
