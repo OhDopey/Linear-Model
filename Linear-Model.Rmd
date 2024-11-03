@@ -106,6 +106,10 @@ basicNN + geom_point() + ggtitle("SIMS~GRIP")+ theme(plot.title = element_text(h
 
 ### Model3: SIMS~ARM+GRIP
 
+```{r}
+basicNN <- ggplot(data,aes(y=SIMS,x=GRIP))
+```
+
 ### Numerical Results
 
 ```{r}
